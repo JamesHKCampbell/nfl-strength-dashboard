@@ -36,7 +36,12 @@ const NFLStatsTable = () => {
     { team: "Washington Commanders", strength: 47.0, strengthChange: -3.5, record: "7-3", winPercentage: 70 }
   ];
 
-  const [sortConfig, setSortConfig] = useState({
+  type SortConfig = {
+    key: keyof typeof data[0] | null;
+    direction: 'ascending' | 'descending';
+  };
+  
+  const [sortConfig, setSortConfig] = useState<SortConfig>({
     key: null,
     direction: 'ascending'
   });
