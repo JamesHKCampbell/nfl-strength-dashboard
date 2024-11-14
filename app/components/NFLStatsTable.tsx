@@ -109,7 +109,7 @@ const NFLStatsTable = () => {
           </tr>
         </thead>
         <tbody>
-          {getSortedData().map((team, index) => (
+          {getSortedData().map((team) => (
             <tr key={team.team} className="border-b hover:bg-gray-50">
               <td className="p-2 text-sm">{team.team}</td>
               <td className={`p-2 text-sm text-right`} 
