@@ -68,12 +68,12 @@ const NFLStatsTable = () => {
     });
   };
 
-  const getStrengthColor = (strength) => {
+  const getStrengthColor = (strength: number) => {
     const opacity = strength / 100;
     return `rgba(108, 163, 219, ${opacity})`;
   };
 
-  const getChangeColor = (change) => {
+  const getChangeColor = (change: number) => {
     console.log('Change:', change, 'Opacity:', Math.abs(change) / 6);
     const opacity = Math.abs(change) / 6;
     if (change > 0) return `rgba(171, 219, 118, ${opacity})`;
