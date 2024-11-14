@@ -74,8 +74,8 @@ const NFLStatsTable = () => {
   };
 
   const getChangeColor = (change: number) => {
-    console.log('Change:', change, 'Opacity:', Math.abs(change) / 6);
-    const opacity = Math.abs(change) / 6;
+    console.log('Change:', change, 'Opacity:', Math.abs(change) / 10);
+    const opacity = Math.abs(change) / 10;
     if (change > 0) return `rgba(171, 219, 118, ${opacity})`;
     if (change < 0) return `rgba(219, 118, 118, ${opacity})`;
     return '';
