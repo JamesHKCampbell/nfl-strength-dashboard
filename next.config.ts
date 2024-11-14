@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  basePath: '/2024-NFL-strength-model-forecast',
+  assetPrefix: '/2024-NFL-strength-model-forecast',
 };
 
 export default nextConfig;
