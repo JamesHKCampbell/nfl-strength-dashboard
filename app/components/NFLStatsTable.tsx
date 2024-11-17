@@ -75,9 +75,9 @@ const NFLStatsTable = () => {
 
   return (
     <div className="w-full overflow-x-auto font-sans bg-white dark:bg-gray-900">
-      <table className="w-full border-collapse border-b-2 border-black">
+      <table className="w-full border-collapse border-b-2 border-black dark:border-b-2 dark:border-white">
         <thead>
-          <tr className="bg-gray-100 dark:bg-gray-800 border-b border-black dark:border-gray-600 text-sm">
+          <tr className="bg-gray-100 dark:bg-gray-800 border-b border-black dark:border-b-2 dark:border-white text-sm">
             <th className="p-2 text-left cursor-pointer" onClick={() => sortData('team')}>
               <div className="flex items-center">
                 Team <ArrowUpDown className="ml-2 h-4 w-4" />
