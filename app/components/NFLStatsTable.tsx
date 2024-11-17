@@ -60,12 +60,14 @@ const NFLStatsTable = () => {
 
   const getStrengthColor = (strength: number) => {
     const opacity = strength / 90;
-    return `rgba(108, 163, 219, ${opacity})`;
+    if (isDarkMode == true) return `rgba(36, 92, 148, ${opacity})`;
+    if (isDarkMode == false) return `rgba(108, 163, 219, ${opacity})`;
+    return ''
   };
 
   const getChangeColor = (change: number) => {
     console.log('Change:', change, 'Opacity:', Math.abs(change) / 10);
-    const opacity = Math.abs(change) / 10;
+    const opacity = isDarkMode ? Math.abs(change) / 10 : Math.abs(change) / 10;
     if (change > 0) return `rgba(171, 219, 118, ${opacity})`;
     if (change < 0) return `rgba(219, 118, 118, ${opacity})`;
     return '';
