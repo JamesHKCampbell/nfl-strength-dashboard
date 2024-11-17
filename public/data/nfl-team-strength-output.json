@@ -1,0 +1,226 @@
+[
+  {
+    "team": "Kansas City Chiefs",
+    "strength": 93.3,
+    "strengthChange": 1.7999999999999972,
+    "record": "'9-0",
+    "winPercentage": 100
+  },
+  {
+    "team": "Detroit Lions",
+    "strength": 83.4,
+    "strengthChange": 1.0,
+    "record": "'8-1",
+    "winPercentage": 89
+  },
+  {
+    "team": "Baltimore Ravens",
+    "strength": 73.6,
+    "strengthChange": 1.5,
+    "record": "'7-3",
+    "winPercentage": 70
+  },
+  {
+    "team": "Buffalo Bills",
+    "strength": 69.4,
+    "strengthChange": 2.700000000000003,
+    "record": "'8-2",
+    "winPercentage": 80
+  },
+  {
+    "team": "San Francisco 49ers",
+    "strength": 65.3,
+    "strengthChange": 1.7999999999999972,
+    "record": "'5-4",
+    "winPercentage": 56
+  },
+  {
+    "team": "Philadelphia Eagles",
+    "strength": 65.1,
+    "strengthChange": 1.1999999999999957,
+    "record": "'7-2",
+    "winPercentage": 78
+  },
+  {
+    "team": "Minnesota Vikings",
+    "strength": 64.7,
+    "strengthChange": 0.29999999999999716,
+    "record": "'7-2",
+    "winPercentage": 78
+  },
+  {
+    "team": "Green Bay Packers",
+    "strength": 64.0,
+    "strengthChange": -0.7000000000000028,
+    "record": "'6-3",
+    "winPercentage": 67
+  },
+  {
+    "team": "Pittsburgh Steelers",
+    "strength": 62.6,
+    "strengthChange": 1.7000000000000028,
+    "record": "'7-2",
+    "winPercentage": 78
+  },
+  {
+    "team": "Houston Texans",
+    "strength": 55.3,
+    "strengthChange": -1.7000000000000028,
+    "record": "'6-4",
+    "winPercentage": 60
+  },
+  {
+    "team": "Los Angeles Rams",
+    "strength": 54.3,
+    "strengthChange": -4.600000000000001,
+    "record": "'4-5",
+    "winPercentage": 44
+  },
+  {
+    "team": "Tampa Bay Buccaneers",
+    "strength": 52.0,
+    "strengthChange": -2.6000000000000014,
+    "record": "'4-6",
+    "winPercentage": 40
+  },
+  {
+    "team": "Arizona Cardinals",
+    "strength": 51.6,
+    "strengthChange": 1.1000000000000014,
+    "record": "'6-4",
+    "winPercentage": 60
+  },
+  {
+    "team": "Atlanta Falcons",
+    "strength": 50.6,
+    "strengthChange": -4.799999999999997,
+    "record": "'6-4",
+    "winPercentage": 60
+  },
+  {
+    "team": "Denver Broncos",
+    "strength": 50.4,
+    "strengthChange": 0.29999999999999716,
+    "record": "'5-5",
+    "winPercentage": 50
+  },
+  {
+    "team": "Los Angeles Chargers",
+    "strength": 50.3,
+    "strengthChange": 3.0,
+    "record": "'6-3",
+    "winPercentage": 67
+  },
+  {
+    "team": "Dallas Cowboys",
+    "strength": 50.0,
+    "strengthChange": -2.3999999999999986,
+    "record": "'3-6",
+    "winPercentage": 33
+  },
+  {
+    "team": "Seattle Seahawks",
+    "strength": 49.4,
+    "strengthChange": -0.20000000000000284,
+    "record": "'4-5",
+    "winPercentage": 44
+  },
+  {
+    "team": "Cincinnati Bengals",
+    "strength": 47.4,
+    "strengthChange": -1.5,
+    "record": "'4-6",
+    "winPercentage": 40
+  },
+  {
+    "team": "Washington Commanders",
+    "strength": 47.0,
+    "strengthChange": -3.6000000000000014,
+    "record": "'7-3",
+    "winPercentage": 70
+  },
+  {
+    "team": "Indianapolis Colts",
+    "strength": 43.4,
+    "strengthChange": -1.8999999999999986,
+    "record": "'4-6",
+    "winPercentage": 40
+  },
+  {
+    "team": "Miami Dolphins",
+    "strength": 42.1,
+    "strengthChange": 5.600000000000001,
+    "record": "'3-6",
+    "winPercentage": 33
+  },
+  {
+    "team": "Chicago Bears",
+    "strength": 39.2,
+    "strengthChange": -5.599999999999994,
+    "record": "'4-5",
+    "winPercentage": 44
+  },
+  {
+    "team": "Cleveland Browns",
+    "strength": 38.6,
+    "strengthChange": -0.8999999999999986,
+    "record": "'2-7",
+    "winPercentage": 22
+  },
+  {
+    "team": "New Orleans Saints",
+    "strength": 36.7,
+    "strengthChange": 4.900000000000002,
+    "record": "'3-7",
+    "winPercentage": 30
+  },
+  {
+    "team": "Las Vegas Raiders",
+    "strength": 36.5,
+    "strengthChange": 0.6000000000000014,
+    "record": "'2-7",
+    "winPercentage": 22
+  },
+  {
+    "team": "New York Jets",
+    "strength": 33.7,
+    "strengthChange": -0.6999999999999957,
+    "record": "'3-7",
+    "winPercentage": 30
+  },
+  {
+    "team": "Jacksonville Jaguars",
+    "strength": 33.0,
+    "strengthChange": -1.0,
+    "record": "'2-8",
+    "winPercentage": 20
+  },
+  {
+    "team": "Tennessee Titans",
+    "strength": 26.6,
+    "strengthChange": -1.2999999999999972,
+    "record": "'2-7",
+    "winPercentage": 22
+  },
+  {
+    "team": "New York Giants",
+    "strength": 26.2,
+    "strengthChange": -5.300000000000001,
+    "record": "'2-8",
+    "winPercentage": 20
+  },
+  {
+    "team": "New England Patriots",
+    "strength": 24.3,
+    "strengthChange": 5.900000000000002,
+    "record": "'3-7",
+    "winPercentage": 30
+  },
+  {
+    "team": "Carolina Panthers",
+    "strength": 19.9,
+    "strengthChange": 5.199999999999999,
+    "record": "'3-7",
+    "winPercentage": 30
+  }
+]
