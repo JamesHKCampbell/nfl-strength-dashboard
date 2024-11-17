@@ -2,8 +2,16 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowUpDown } from 'lucide-react';
 
+interface TeamStats {
+  team: string;
+  strength: number;
+  strengthChange: number;
+  record: string;
+  winPercentage: number;
+}
+
 const NFLStatsTable = () => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState<TeamStats[]>([]);  // Add type here
 
   useEffect(() => {
     fetch('/data/nfl-team-strength-output.json')
@@ -13,7 +21,7 @@ const NFLStatsTable = () => {
   }, []);
 
   type SortConfig = {
-    key: keyof typeof data[0] | null;
+    key: keyof TeamStats | null;
     direction: 'ascending' | 'descending';
   };
   
