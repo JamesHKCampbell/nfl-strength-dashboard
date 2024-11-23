@@ -2,6 +2,7 @@
 
 import NFLStatsTable from './components/NFLStatsTable';
 import UpcomingGames from './components/UpcomingGames';
+import TeamTrends from './components/TeamTrends';
 import page_metadata from '../public/data/nfl-team-strength-metadata.json';
 import { useState, useEffect } from 'react';
 
@@ -97,7 +98,7 @@ export default function Home() {
 
       {/* Footer */}
       <p className="text-sm font-light mb-4 font-sans"></p>
-      <p className="text-sm font-sans">Built by James H. K. Campbell, for a bit of fun</p>
+      <p className="text-sm font-sans">Built by James H. K. Campbell with Vercel, React, and SciPy</p>
       <a className="text-sm text-blue-600 hover:text-blue-800 underline mb-4 font-sans" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jameshkc">LinkedIn</a>
     </main>
   );
