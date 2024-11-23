@@ -2,7 +2,7 @@
 
 import NFLStatsTable from './components/NFLStatsTable';
 import UpcomingGames from './components/UpcomingGames';
-import TeamTrends from './components/TeamTrends';
+// import TeamTrends from './components/TeamTrends';
 import page_metadata from '../public/data/nfl-team-strength-metadata.json';
 import { useState, useEffect } from 'react';
 
