@@ -4,6 +4,7 @@ import { ArrowUpDown } from 'lucide-react';
 
 interface TeamStats {
   team: string;
+  division: string;
   strength: number;
   strengthChange: number;
   record: string;
