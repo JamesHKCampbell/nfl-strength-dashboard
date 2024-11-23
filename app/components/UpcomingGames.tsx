@@ -29,11 +29,18 @@ const UpcomingGames = () => {
       .catch(error => console.error('Error loading games data:', error));
   }, []);
 
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+    useEffect(() => {
+    setIsDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches);
+    }, []);
+
   const getProbabilityColor = (prob: number) => {
     const opacity = prob / 100;
     // Using similar colors to your existing table
-    return `rgba(173, 128, 217, ${opacity})`;
-  };
+    if (isDarkMode) return `rgba(220, 139, 24, ${opacity})`;
+    return `rgba(236, 174, 87, ${opacity})`;  
+    };
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
@@ -65,7 +72,8 @@ const UpcomingGames = () => {
               <td className="p-2 text-sm text-right" 
                   style={{ 
                     backgroundColor: getProbabilityColor(game.Visitor_Win_Likelihood),
-                    color: game.Visitor_Win_Likelihood > 75 ? 'white' : 'black'
+                    // color: game.Visitor_Win_Likelihood > 75 ? 'white' : 'black'
+                    color: isDarkMode ? 'white' : 'black'
                   }}>
                 {game.Visitor_Win_Likelihood}%
               </td>
@@ -74,7 +82,8 @@ const UpcomingGames = () => {
               <td className="p-2 text-sm" 
                   style={{ 
                     backgroundColor: getProbabilityColor(game.Home_Win_Likelihood),
-                    color: game.Home_Win_Likelihood > 75 ? 'white' : 'black'
+                    // color: game.Home_Win_Likelihood > 75 ? 'white' : 'black'
+                    color: isDarkMode ? 'white' : 'black'
                   }}>
                 {game.Home_Win_Likelihood}%
               </td>
