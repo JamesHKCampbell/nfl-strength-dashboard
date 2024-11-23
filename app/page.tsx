@@ -99,7 +99,9 @@ export default function Home() {
       {/* Footer */}
       <p className="text-sm font-light mb-4 font-sans"></p>
       <p className="text-sm font-sans">Built by James H. K. Campbell with Vercel, React, and SciPy</p>
-      <a className="text-sm text-blue-600 hover:text-blue-800 underline mb-4 font-sans" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jameshkc">LinkedIn</a>
+      <a className="text-sm text-blue-600 hover:text-blue-800 underline  font-sans" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jameshkc">LinkedIn</a>
+      <p className="text-sm font-sans mb-10"></p>
+      <a className="text-sm font-bold hover:text-blue-800 mb-2 font-sans" target="_blank" rel="noopener noreferrer" href="https://www.mainspringlab.com">Back to: Mainspring Lab Home Page</a>
     </main>
   );
 }
