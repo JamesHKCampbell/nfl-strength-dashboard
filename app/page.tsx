@@ -1,16 +1,17 @@
 'use client';
 
 import NFLStatsTable from './components/NFLStatsTable';
+import UpcomingGames from './components/UpcomingGames';
 import page_metadata from '../public/data/nfl-team-strength-metadata.json';
 import { useState } from 'react';
 
 // Placeholder components
-const UpcomingGames = () => (
-  <div className="w-full p-4">
-    <h3 className="text-xl font-bold">Upcoming Games</h3>
-    <p>Coming soon: Game predictions and analysis</p>
-  </div>
-);
+// const UpcomingGames = () => (
+//   <div className="w-full p-4">
+//     <h3 className="text-xl font-bold">Upcoming Games</h3>
+//     <p>Coming soon: Game predictions and analysis</p>
+//   </div>
+// );
 
 const TeamTrends = () => (
   <div className="w-full p-4">
