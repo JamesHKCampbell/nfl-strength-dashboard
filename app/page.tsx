@@ -42,12 +42,12 @@ export default function Home() {
       <h2 className="text-xl font-light mb-8 font-sans">{page_metadata.weekNumber} Results</h2>
       
       {/* Navigation Buttons */}
-      <div className="flex gap-4 mb-6">
+      <div className="flex gap-2 mb-8">
         <button
           onClick={() => setActiveView('rankings')}
           className={`px-4 py-2 rounded-lg font-sans ${
             activeView === 'rankings'
-              ? 'bg-blue-600 text-white'
+              ? 'bg-black text-white'
               : 'bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600'
           }`}
         >
@@ -57,7 +57,7 @@ export default function Home() {
           onClick={() => setActiveView('games')}
           className={`px-4 py-2 rounded-lg font-sans ${
             activeView === 'games'
-              ? 'bg-blue-600 text-white'
+              ? 'bg-black text-white'
               : 'bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600'
           }`}
         >
@@ -67,7 +67,7 @@ export default function Home() {
           onClick={() => setActiveView('trends')}
           className={`px-4 py-2 rounded-lg font-sans ${
             activeView === 'trends'
-              ? 'bg-blue-600 text-white'
+              ? 'bg-black text-white'
               : 'bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600'
           }`}
         >

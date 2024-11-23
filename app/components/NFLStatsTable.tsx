@@ -78,9 +78,9 @@ const NFLStatsTable = () => {
 
   const getProbColor = (prob: number) => {
     if (prob === 100) {
-        return isDarkMode ? 'rgba(92, 42, 141, 1)' : 'rgba(163, 114, 213, 1)';  // Brighter purple
+        return isDarkMode ? 'rgba(92, 42, 141, 1)' : 'rgba(61, 30, 92, 1)';  // Brighter purple
     }
-    const opacity = (prob+10) / 130;
+    const opacity = (prob+10) / 100;
     if (isDarkMode) return `rgba(92, 42, 141, ${opacity})`;
     return `rgba(163, 114, 213, ${opacity})`;
   };
@@ -95,14 +95,19 @@ const NFLStatsTable = () => {
                 Team <ArrowUpDown className="ml-2 h-4 w-4" />
               </div>
             </th>
+            <th className="p-2 text-left cursor-pointer" onClick={() => sortData('division')}>
+              <div className="flex items-center">
+                Division <ArrowUpDown className="ml-2 h-4 w-4" />
+              </div>
+            </th>
             <th className="p-2 text-right cursor-pointer" onClick={() => sortData('strength')}>
               <div className="flex items-center justify-end">
-                Team Strength (1-100) <ArrowUpDown className="ml-2 h-4 w-4" />
+                Team Strength<br />(1-100) <ArrowUpDown className="ml-2 h-4 w-4" />
               </div>
             </th>
             <th className="p-2 text-right cursor-pointer border-r-2 border-r-black dark:border-r-white" onClick={() => sortData('strengthChange')}>
               <div className="flex items-center justify-end">
-                Change vs. Last Week <ArrowUpDown className="ml-2 h-4 w-4" />
+                Change in Strength<br />(vs. Last Week) <ArrowUpDown className="ml-2 h-4 w-4" />
               </div>
             </th>
             <th className="p-2 text-right cursor-pointer" onClick={() => sortData('record')}>
@@ -117,17 +122,17 @@ const NFLStatsTable = () => {
             </th>
             <th className="p-2 text-right cursor-pointer" onClick={() => sortData('prob_makePlayoffs')}>
               <div className="flex items-center justify-end">
-                Probability to: Make Playoffs <ArrowUpDown className="ml-2 h-4 w-4" />
+                Probability to:<br /> Make Playoffs <ArrowUpDown className="ml-2 h-4 w-4" />
               </div>
             </th>
             <th className="p-2 text-right cursor-pointer" onClick={() => sortData('prob_winDivision')}>
               <div className="flex items-center justify-end">
-                Probability to: Win Division <ArrowUpDown className="ml-2 h-4 w-4" />
+                Probability to:<br /> Win Division <ArrowUpDown className="ml-2 h-4 w-4" />
               </div>
             </th>
             <th className="p-2 text-right cursor-pointer" onClick={() => sortData('prob_winSuperbowl')}>
               <div className="flex items-center justify-end">
-                Probability to: Win Super Bowl <ArrowUpDown className="ml-2 h-4 w-4" />
+                Probability to:<br /> Win Super Bowl <ArrowUpDown className="ml-2 h-4 w-4" />
               </div>
             </th>
           </tr>
@@ -136,6 +141,7 @@ const NFLStatsTable = () => {
           {getSortedData().map((team) => (
             <tr key={team.team} className="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
               <td className="p-2 text-right border dark:border-gray-600 dark:hover:bg-gray-700 text-sm">{team.team}</td>
+              <td className="p-2 text-right border dark:border-gray-600 dark:hover:bg-gray-700 text-sm">{team.division}</td>
               <td className={`p-2 border dark:border-gray-600 dark:hover:bg-gray-700 text-sm text-right`} 
                   style={{ 
                     backgroundColor: getStrengthColor(team.strength),

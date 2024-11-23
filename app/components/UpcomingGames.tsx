@@ -1,6 +1,5 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import { ArrowUpDown } from 'lucide-react';
 
 interface GameForecast {
   Date: string;
