@@ -79,9 +79,9 @@ const NFLStatsTable = () => {
 
   const getProbColor = (prob: number) => {
     if (prob === 100) {
-        return isDarkMode ? 'rgba(92, 42, 141, 1)' : 'rgba(61, 30, 92, 1)';  // Brighter purple
+        return isDarkMode ? 'rgba(92, 42, 141, 1)' : 'rgba(163, 114, 213, 1)';  // Brighter purple
     }
-    const opacity = (prob+10) / 100;
+    const opacity = (prob+10) / 120;
     if (isDarkMode) return `rgba(92, 42, 141, ${opacity})`;
     return `rgba(163, 114, 213, ${opacity})`;
   };
@@ -159,7 +159,7 @@ const NFLStatsTable = () => {
                   style={{ 
                     backgroundColor: getProbColor(team.prob_makePlayoffs),
                     color: isDarkMode ? 'white' : (team.prob_makePlayoffs > 75 ? 'white' : 'black'),
-                    fontWeight: team.prob_makePlayoffs === 100 ? 'bold' : 'normal'
+                    // fontWeight: team.prob_makePlayoffs === 100 ? 'bold' : 'normal'
                   }}>
                 {team.prob_makePlayoffs}%
               </td>
@@ -167,7 +167,7 @@ const NFLStatsTable = () => {
                   style={{ 
                     backgroundColor: getProbColor(team.prob_winDivision),
                     color: isDarkMode ? 'white' : (team.prob_winDivision > 75 ? 'white' : 'black'),
-                    fontWeight: team.prob_winDivision === 100 ? 'bold' : 'normal'
+                    // fontWeight: team.prob_winDivision === 100 ? 'bold' : 'normal'
                   }}>
                 {team.prob_winDivision}%
               </td>
@@ -175,7 +175,7 @@ const NFLStatsTable = () => {
                   style={{ 
                     backgroundColor: getProbColor(team.prob_winSuperbowl),
                     color: isDarkMode ? 'white' : (team.prob_winSuperbowl > 75 ? 'white' : 'black'),
-                    fontWeight: team.prob_winSuperbowl === 100 ? 'bold' : 'normal'
+                    // fontWeight: team.prob_winSuperbowl === 100 ? 'bold' : 'normal'
                   }}>
                 {team.prob_winSuperbowl}%
               </td>
