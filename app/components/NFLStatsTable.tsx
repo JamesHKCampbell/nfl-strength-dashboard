@@ -29,8 +29,8 @@ const NFLStatsTable = () => {
   };
   
   const [sortConfig, setSortConfig] = useState<SortConfig>({
-    key: null,
-    direction: 'ascending'
+    key: 'strength',
+    direction: 'descending'
   });
 
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -77,11 +77,14 @@ const NFLStatsTable = () => {
   };
 
   const getProbColor = (prob: number) => {
-    const opacity = prob / 100;
-    if (isDarkMode == true) return `rgba(92, 42, 141, ${opacity})`;
-    if (isDarkMode == false) return `rgba(173, 128, 217, ${opacity})`;
-    return ''
+    if (prob === 100) {
+        return isDarkMode ? 'rgba(92, 42, 141, 1)' : 'rgba(163, 114, 213, 1)';  // Brighter purple
+    }
+    const opacity = (prob+10) / 120;
+    if (isDarkMode) return `rgba(92, 42, 141, ${opacity})`;
+    return `rgba(173, 128, 217, ${opacity})`;
   };
+  
   return (
     <div className="w-full overflow-x-auto font-sans bg-white dark:bg-gray-900">
       <table className="w-full border-collapse border-b-2 border-black dark:border-b-2 dark:border-white">
@@ -148,21 +151,24 @@ const NFLStatsTable = () => {
               <td className="p-2 text-sm text-right border dark:border-gray-600 dark:hover:bg-gray-700"
                   style={{ 
                     backgroundColor: getProbColor(team.prob_makePlayoffs),
-                    color: isDarkMode ? 'white' : (team.prob_makePlayoffs > 75 ? 'white' : 'black')
+                    color: isDarkMode ? 'white' : (team.prob_makePlayoffs > 75 ? 'white' : 'black'),
+                    fontWeight: team.prob_makePlayoffs === 100 ? 'bold' : 'normal'
                   }}>
                 {team.prob_makePlayoffs}%
               </td>
               <td className="p-2 text-sm text-right border dark:border-gray-600 dark:hover:bg-gray-700"
                   style={{ 
                     backgroundColor: getProbColor(team.prob_winDivision),
-                    color: isDarkMode ? 'white' : (team.prob_winDivision > 75 ? 'white' : 'black')
+                    color: isDarkMode ? 'white' : (team.prob_winDivision > 75 ? 'white' : 'black'),
+                    fontWeight: team.prob_winDivision === 100 ? 'bold' : 'normal'
                   }}>
                 {team.prob_winDivision}%
               </td>
               <td className="p-2 text-sm text-right border dark:border-gray-600 dark:hover:bg-gray-700"
                   style={{ 
                     backgroundColor: getProbColor(team.prob_winSuperbowl),
-                    color: isDarkMode ? 'white' : (team.prob_winSuperbowl > 75 ? 'white' : 'black')
+                    color: isDarkMode ? 'white' : (team.prob_winSuperbowl > 75 ? 'white' : 'black'),
+                    fontWeight: team.prob_winSuperbowl === 100 ? 'bold' : 'normal'
                   }}>
                 {team.prob_winSuperbowl}%
               </td>
