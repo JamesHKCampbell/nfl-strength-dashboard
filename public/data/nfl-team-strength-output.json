@@ -1,226 +1,386 @@
 [
   {
-    "team": "Kansas City Chiefs",
-    "strength": 95.8,
-    "strengthChange": 1.9,
-    "record": "9-0",
-    "winPercentage": 100
-  },
-  {
-    "team": "Detroit Lions",
-    "strength": 85.1,
-    "strengthChange": 1.0,
-    "record": "8-1",
-    "winPercentage": 89
-  },
-  {
-    "team": "Baltimore Ravens",
-    "strength": 73.4,
-    "strengthChange": 1.5,
-    "record": "7-3",
-    "winPercentage": 70
-  },
-  {
-    "team": "Buffalo Bills",
-    "strength": 69.8,
-    "strengthChange": 2.8,
-    "record": "8-2",
-    "winPercentage": 80
-  },
-  {
-    "team": "Minnesota Vikings",
-    "strength": 66.4,
-    "strengthChange": 0.2,
-    "record": "7-2",
-    "winPercentage": 78
-  },
-  {
-    "team": "Philadelphia Eagles",
-    "strength": 65.6,
-    "strengthChange": 1.3,
-    "record": "7-2",
-    "winPercentage": 78
-  },
-  {
-    "team": "Green Bay Packers",
-    "strength": 65.0,
-    "strengthChange": -0.8,
-    "record": "6-3",
-    "winPercentage": 67
-  },
-  {
-    "team": "San Francisco 49ers",
-    "strength": 64.8,
-    "strengthChange": 1.9,
-    "record": "5-4",
-    "winPercentage": 56
-  },
-  {
-    "team": "Pittsburgh Steelers",
-    "strength": 63.2,
-    "strengthChange": 1.9,
-    "record": "7-2",
-    "winPercentage": 78
-  },
-  {
-    "team": "Houston Texans",
-    "strength": 55.5,
-    "strengthChange": -1.9,
-    "record": "6-4",
-    "winPercentage": 60
-  },
-  {
-    "team": "Los Angeles Rams",
-    "strength": 54.0,
-    "strengthChange": -5.2,
-    "record": "4-5",
-    "winPercentage": 44
-  },
-  {
     "team": "Arizona Cardinals",
-    "strength": 53.1,
-    "strengthChange": 1.1,
+    "strength": 53.4,
+    "strengthChange": -0.1,
     "record": "6-4",
-    "winPercentage": 60
-  },
-  {
-    "team": "Tampa Bay Buccaneers",
-    "strength": 52.3,
-    "strengthChange": -2.8,
-    "record": "4-6",
-    "winPercentage": 40
+    "winPercentage": 60,
+    "projectedWins": 9.9,
+    "projectedLosses": 7.1,
+    "prob_makePlayoffs": 59,
+    "prob_winDivision": 52,
+    "prob_winSuperbowl": 0
   },
   {
     "team": "Atlanta Falcons",
-    "strength": 51.8,
-    "strengthChange": -5.3,
-    "record": "6-4",
-    "winPercentage": 60
-  },
-  {
-    "team": "Los Angeles Chargers",
-    "strength": 51.5,
-    "strengthChange": 3.1,
-    "record": "6-3",
-    "winPercentage": 67
-  },
-  {
-    "team": "Denver Broncos",
-    "strength": 50.4,
-    "strengthChange": 0.3,
-    "record": "5-5",
-    "winPercentage": 50
-  },
-  {
-    "team": "Dallas Cowboys",
-    "strength": 48.9,
-    "strengthChange": -2.5,
-    "record": "3-6",
-    "winPercentage": 33
-  },
-  {
-    "team": "Seattle Seahawks",
-    "strength": 48.9,
-    "strengthChange": -0.1,
-    "record": "4-5",
-    "winPercentage": 44
-  },
-  {
-    "team": "Washington Commanders",
-    "strength": 48.5,
-    "strengthChange": -4.0,
-    "record": "7-3",
-    "winPercentage": 70
-  },
-  {
-    "team": "Cincinnati Bengals",
-    "strength": 46.2,
-    "strengthChange": -1.6,
-    "record": "4-6",
-    "winPercentage": 40
-  },
-  {
-    "team": "Indianapolis Colts",
-    "strength": 43.0,
-    "strengthChange": -1.9,
-    "record": "4-6",
-    "winPercentage": 40
-  },
-  {
-    "team": "Miami Dolphins",
-    "strength": 40.7,
-    "strengthChange": 6.3,
-    "record": "3-6",
-    "winPercentage": 33
-  },
-  {
-    "team": "Chicago Bears",
-    "strength": 38.7,
-    "strengthChange": -6.2,
-    "record": "4-5",
-    "winPercentage": 44
-  },
-  {
-    "team": "Cleveland Browns",
-    "strength": 36.4,
-    "strengthChange": -1.0,
-    "record": "2-7",
-    "winPercentage": 22
-  },
-  {
-    "team": "New Orleans Saints",
-    "strength": 36.2,
-    "strengthChange": 5.7,
-    "record": "3-7",
-    "winPercentage": 30
-  },
-  {
-    "team": "Las Vegas Raiders",
-    "strength": 35.1,
-    "strengthChange": 0.6,
-    "record": "2-7",
-    "winPercentage": 22
-  },
-  {
-    "team": "New York Jets",
-    "strength": 33.2,
+    "strength": 49.2,
     "strengthChange": -0.5,
-    "record": "3-7",
-    "winPercentage": 30
+    "record": "6-5",
+    "winPercentage": 55,
+    "projectedWins": 9.51,
+    "projectedLosses": 7.49,
+    "prob_makePlayoffs": 63,
+    "prob_winDivision": 59,
+    "prob_winSuperbowl": 0
   },
   {
-    "team": "Jacksonville Jaguars",
-    "strength": 31.3,
-    "strengthChange": -0.9,
-    "record": "2-8",
-    "winPercentage": 20
+    "team": "Baltimore Ravens",
+    "strength": 68.1,
+    "strengthChange": -0.3,
+    "record": "7-4",
+    "winPercentage": 64,
+    "projectedWins": 10.99,
+    "projectedLosses": 6.01,
+    "prob_makePlayoffs": 91,
+    "prob_winDivision": 50,
+    "prob_winSuperbowl": 4
   },
   {
-    "team": "Tennessee Titans",
-    "strength": 25.8,
-    "strengthChange": -1.2,
-    "record": "2-7",
-    "winPercentage": 22
-  },
-  {
-    "team": "New York Giants",
-    "strength": 25.3,
-    "strengthChange": -5.7,
-    "record": "2-8",
-    "winPercentage": 20
-  },
-  {
-    "team": "New England Patriots",
-    "strength": 23.7,
-    "strengthChange": 6.5,
-    "record": "3-7",
-    "winPercentage": 30
+    "team": "Buffalo Bills",
+    "strength": 75.8,
+    "strengthChange": -0.3,
+    "record": "9-2",
+    "winPercentage": 82,
+    "projectedWins": 13.52,
+    "projectedLosses": 3.48,
+    "prob_makePlayoffs": 100,
+    "prob_winDivision": 100,
+    "prob_winSuperbowl": 13
   },
   {
     "team": "Carolina Panthers",
-    "strength": 20.4,
-    "strengthChange": 5.6,
+    "strength": 20.7,
+    "strengthChange": 0.1,
     "record": "3-7",
-    "winPercentage": 30
+    "winPercentage": 30,
+    "projectedWins": 4.11,
+    "projectedLosses": 12.89,
+    "prob_makePlayoffs": 0,
+    "prob_winDivision": 0,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Chicago Bears",
+    "strength": 37.9,
+    "strengthChange": 0.3,
+    "record": "4-6",
+    "winPercentage": 40,
+    "projectedWins": 5.29,
+    "projectedLosses": 11.71,
+    "prob_makePlayoffs": 0,
+    "prob_winDivision": 0,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Cincinnati Bengals",
+    "strength": 42.3,
+    "strengthChange": 0.4,
+    "record": "4-7",
+    "winPercentage": 36,
+    "projectedWins": 7.15,
+    "projectedLosses": 10.85,
+    "prob_makePlayoffs": 11,
+    "prob_winDivision": 1,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Cleveland Browns",
+    "strength": 37.6,
+    "strengthChange": 5.4,
+    "record": "3-8",
+    "winPercentage": 27,
+    "projectedWins": 5.18,
+    "projectedLosses": 12.82,
+    "prob_makePlayoffs": 1,
+    "prob_winDivision": 0,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Dallas Cowboys",
+    "strength": 46.0,
+    "strengthChange": 0.0,
+    "record": "3-7",
+    "winPercentage": 30,
+    "projectedWins": 6.62,
+    "projectedLosses": 10.38,
+    "prob_makePlayoffs": 1,
+    "prob_winDivision": 0,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Denver Broncos",
+    "strength": 53.5,
+    "strengthChange": -0.3,
+    "record": "6-5",
+    "winPercentage": 55,
+    "projectedWins": 9.78,
+    "projectedLosses": 8.22,
+    "prob_makePlayoffs": 81,
+    "prob_winDivision": 0,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Detroit Lions",
+    "strength": 86.4,
+    "strengthChange": 0.0,
+    "record": "9-1",
+    "winPercentage": 90,
+    "projectedWins": 14.61,
+    "projectedLosses": 2.39,
+    "prob_makePlayoffs": 100,
+    "prob_winDivision": 81,
+    "prob_winSuperbowl": 34
+  },
+  {
+    "team": "Green Bay Packers",
+    "strength": 67.2,
+    "strengthChange": -0.1,
+    "record": "7-3",
+    "winPercentage": 70,
+    "projectedWins": 11.48,
+    "projectedLosses": 5.52,
+    "prob_makePlayoffs": 92,
+    "prob_winDivision": 3,
+    "prob_winSuperbowl": 2
+  },
+  {
+    "team": "Houston Texans",
+    "strength": 59.0,
+    "strengthChange": 0.2,
+    "record": "7-4",
+    "winPercentage": 64,
+    "projectedWins": 10.8,
+    "projectedLosses": 6.2,
+    "prob_makePlayoffs": 97,
+    "prob_winDivision": 94,
+    "prob_winSuperbowl": 4
+  },
+  {
+    "team": "Indianapolis Colts",
+    "strength": 46.4,
+    "strengthChange": -0.3,
+    "record": "5-6",
+    "winPercentage": 45,
+    "projectedWins": 8.47,
+    "projectedLosses": 8.53,
+    "prob_makePlayoffs": 22,
+    "prob_winDivision": 6,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Jacksonville Jaguars",
+    "strength": 32.1,
+    "strengthChange": 0.6,
+    "record": "2-9",
+    "winPercentage": 18,
+    "projectedWins": 4.65,
+    "projectedLosses": 12.35,
+    "prob_makePlayoffs": 0,
+    "prob_winDivision": 0,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Kansas City Chiefs",
+    "strength": 87.2,
+    "strengthChange": -0.2,
+    "record": "9-1",
+    "winPercentage": 90,
+    "projectedWins": 15.12,
+    "projectedLosses": 1.88,
+    "prob_makePlayoffs": 100,
+    "prob_winDivision": 97,
+    "prob_winSuperbowl": 26
+  },
+  {
+    "team": "Las Vegas Raiders",
+    "strength": 32.0,
+    "strengthChange": 0.1,
+    "record": "2-8",
+    "winPercentage": 20,
+    "projectedWins": 4.06,
+    "projectedLosses": 12.94,
+    "prob_makePlayoffs": 0,
+    "prob_winDivision": 0,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Los Angeles Chargers",
+    "strength": 54.2,
+    "strengthChange": 0.0,
+    "record": "7-3",
+    "winPercentage": 70,
+    "projectedWins": 11.19,
+    "projectedLosses": 6.81,
+    "prob_makePlayoffs": 97,
+    "prob_winDivision": 3,
+    "prob_winSuperbowl": 1
+  },
+  {
+    "team": "Los Angeles Rams",
+    "strength": 55.3,
+    "strengthChange": -0.2,
+    "record": "5-5",
+    "winPercentage": 50,
+    "projectedWins": 8.56,
+    "projectedLosses": 8.44,
+    "prob_makePlayoffs": 26,
+    "prob_winDivision": 17,
+    "prob_winSuperbowl": 1
+  },
+  {
+    "team": "Miami Dolphins",
+    "strength": 44.4,
+    "strengthChange": 0.0,
+    "record": "4-6",
+    "winPercentage": 40,
+    "projectedWins": 7.5,
+    "projectedLosses": 9.5,
+    "prob_makePlayoffs": 6,
+    "prob_winDivision": 0,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Minnesota Vikings",
+    "strength": 67.9,
+    "strengthChange": 0.2,
+    "record": "8-2",
+    "winPercentage": 80,
+    "projectedWins": 12.4,
+    "projectedLosses": 4.6,
+    "prob_makePlayoffs": 99,
+    "prob_winDivision": 16,
+    "prob_winSuperbowl": 5
+  },
+  {
+    "team": "New England Patriots",
+    "strength": 22.4,
+    "strengthChange": 0.0,
+    "record": "3-8",
+    "winPercentage": 27,
+    "projectedWins": 3.97,
+    "projectedLosses": 13.03,
+    "prob_makePlayoffs": 0,
+    "prob_winDivision": 0,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "New Orleans Saints",
+    "strength": 39.6,
+    "strengthChange": 0.4,
+    "record": "4-7",
+    "winPercentage": 36,
+    "projectedWins": 6.59,
+    "projectedLosses": 10.41,
+    "prob_makePlayoffs": 2,
+    "prob_winDivision": 2,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "New York Giants",
+    "strength": 24.8,
+    "strengthChange": 0.3,
+    "record": "2-8",
+    "winPercentage": 20,
+    "projectedWins": 3.66,
+    "projectedLosses": 13.34,
+    "prob_makePlayoffs": 0,
+    "prob_winDivision": 0,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "New York Jets",
+    "strength": 31.0,
+    "strengthChange": -0.2,
+    "record": "3-8",
+    "winPercentage": 27,
+    "projectedWins": 4.74,
+    "projectedLosses": 12.26,
+    "prob_makePlayoffs": 0,
+    "prob_winDivision": 0,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Philadelphia Eagles",
+    "strength": 67.3,
+    "strengthChange": 0.4,
+    "record": "8-2",
+    "winPercentage": 80,
+    "projectedWins": 13.0,
+    "projectedLosses": 4.0,
+    "prob_makePlayoffs": 100,
+    "prob_winDivision": 96,
+    "prob_winSuperbowl": 6
+  },
+  {
+    "team": "Pittsburgh Steelers",
+    "strength": 61.3,
+    "strengthChange": -5.7,
+    "record": "8-3",
+    "winPercentage": 73,
+    "projectedWins": 11.25,
+    "projectedLosses": 5.75,
+    "prob_makePlayoffs": 94,
+    "prob_winDivision": 48,
+    "prob_winSuperbowl": 2
+  },
+  {
+    "team": "San Francisco 49ers",
+    "strength": 60.2,
+    "strengthChange": -0.2,
+    "record": "5-5",
+    "winPercentage": 50,
+    "projectedWins": 8.55,
+    "projectedLosses": 8.45,
+    "prob_makePlayoffs": 23,
+    "prob_winDivision": 10,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Seattle Seahawks",
+    "strength": 53.3,
+    "strengthChange": -0.1,
+    "record": "5-5",
+    "winPercentage": 50,
+    "projectedWins": 8.55,
+    "projectedLosses": 8.45,
+    "prob_makePlayoffs": 30,
+    "prob_winDivision": 22,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Tampa Bay Buccaneers",
+    "strength": 51.6,
+    "strengthChange": -0.1,
+    "record": "4-6",
+    "winPercentage": 40,
+    "projectedWins": 8.79,
+    "projectedLosses": 8.21,
+    "prob_makePlayoffs": 47,
+    "prob_winDivision": 39,
+    "prob_winSuperbowl": 1
+  },
+  {
+    "team": "Tennessee Titans",
+    "strength": 25.9,
+    "strengthChange": 0.1,
+    "record": "2-8",
+    "winPercentage": 20,
+    "projectedWins": 3.97,
+    "projectedLosses": 13.03,
+    "prob_makePlayoffs": 0,
+    "prob_winDivision": 0,
+    "prob_winSuperbowl": 0
+  },
+  {
+    "team": "Washington Commanders",
+    "strength": 46.0,
+    "strengthChange": 0.1,
+    "record": "7-4",
+    "winPercentage": 64,
+    "projectedWins": 10.05,
+    "projectedLosses": 6.95,
+    "prob_makePlayoffs": 56,
+    "prob_winDivision": 4,
+    "prob_winSuperbowl": 0
   }
 ]

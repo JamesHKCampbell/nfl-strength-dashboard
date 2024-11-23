@@ -8,6 +8,9 @@ interface TeamStats {
   strengthChange: number;
   record: string;
   winPercentage: number;
+  prob_makePlayoffs: number;
+  prob_winDivision: number;
+  prob_winSuperbowl: number;
 }
 
 const NFLStatsTable = () => {
@@ -73,11 +76,17 @@ const NFLStatsTable = () => {
     return '';
   };
 
+  const getProbColor = (prob: number) => {
+    const opacity = prob / 100;
+    if (isDarkMode == true) return `rgba(92, 42, 141, ${opacity})`;
+    if (isDarkMode == false) return `rgba(173, 128, 217, ${opacity})`;
+    return ''
+  };
   return (
     <div className="w-full overflow-x-auto font-sans bg-white dark:bg-gray-900">
       <table className="w-full border-collapse border-b-2 border-black dark:border-b-2 dark:border-white">
         <thead>
-          <tr className="bg-gray-100 dark:bg-gray-800 border-b border-black dark:border-b-2 dark:border-white text-sm">
+          <tr className="bg-gray-100 dark:bg-gray-800 border-b-2 border-black dark:border-b-2 dark:border-white text-sm">
             <th className="p-2 text-left cursor-pointer" onClick={() => sortData('team')}>
               <div className="flex items-center">
                 Team <ArrowUpDown className="ml-2 h-4 w-4" />
@@ -88,7 +97,7 @@ const NFLStatsTable = () => {
                 Team Strength (1-100) <ArrowUpDown className="ml-2 h-4 w-4" />
               </div>
             </th>
-            <th className="p-2 text-right cursor-pointer" onClick={() => sortData('strengthChange')}>
+            <th className="p-2 text-right cursor-pointer border-r-2 border-r-black dark:border-r-white" onClick={() => sortData('strengthChange')}>
               <div className="flex items-center justify-end">
                 Change vs. Last Week <ArrowUpDown className="ml-2 h-4 w-4" />
               </div>
@@ -98,9 +107,24 @@ const NFLStatsTable = () => {
                 Record <ArrowUpDown className="ml-2 h-4 w-4" />
               </div>
             </th>
-            <th className="p-2 text-right cursor-pointer" onClick={() => sortData('winPercentage')}>
+            <th className="p-2 text-right cursor-pointer border-r-2 border-r-black dark:border-r-white" onClick={() => sortData('winPercentage')}>
               <div className="flex items-center justify-end">
                 Win % <ArrowUpDown className="ml-2 h-4 w-4" />
+              </div>
+            </th>
+            <th className="p-2 text-right cursor-pointer" onClick={() => sortData('prob_makePlayoffs')}>
+              <div className="flex items-center justify-end">
+                Probability to: Make Playoffs <ArrowUpDown className="ml-2 h-4 w-4" />
+              </div>
+            </th>
+            <th className="p-2 text-right cursor-pointer" onClick={() => sortData('prob_winDivision')}>
+              <div className="flex items-center justify-end">
+                Probability to: Win Division <ArrowUpDown className="ml-2 h-4 w-4" />
+              </div>
+            </th>
+            <th className="p-2 text-right cursor-pointer" onClick={() => sortData('prob_winSuperbowl')}>
+              <div className="flex items-center justify-end">
+                Probability to: Win Super Bowl <ArrowUpDown className="ml-2 h-4 w-4" />
               </div>
             </th>
           </tr>
@@ -116,11 +140,32 @@ const NFLStatsTable = () => {
                   }}>
                 {team.strength.toFixed(1)}
               </td>
-              <td className="p-2 text-sm text-right border dark:border-gray-600 dark:hover:bg-gray-700" style={{ backgroundColor: getChangeColor(team.strengthChange) }}>
+              <td className="p-2 text-sm text-right border border-r-2 border-r-black dark:border-r-white dark:border-gray-600 dark:hover:bg-gray-700" style={{ backgroundColor: getChangeColor(team.strengthChange) }}>
                 {team.strengthChange > 0 ? '+' : ''}{team.strengthChange.toFixed(1)}
               </td>
               <td className="p-2 text-sm text-right border dark:border-gray-600 dark:hover:bg-gray-700">{team.record}</td>
-              <td className="p-2 text-sm text-right border dark:border-gray-600 dark:hover:bg-gray-700">{team.winPercentage}%</td>
+              <td className="p-2 text-sm text-right border border-r-2 border-r-black dark:border-r-white dark:border-gray-600 dark:hover:bg-gray-700">{team.winPercentage}%</td>
+              <td className="p-2 text-sm text-right border dark:border-gray-600 dark:hover:bg-gray-700"
+                  style={{ 
+                    backgroundColor: getProbColor(team.prob_makePlayoffs),
+                    color: isDarkMode ? 'white' : (team.prob_makePlayoffs > 75 ? 'white' : 'black')
+                  }}>
+                {team.prob_makePlayoffs}%
+              </td>
+              <td className="p-2 text-sm text-right border dark:border-gray-600 dark:hover:bg-gray-700"
+                  style={{ 
+                    backgroundColor: getProbColor(team.prob_winDivision),
+                    color: isDarkMode ? 'white' : (team.prob_winDivision > 75 ? 'white' : 'black')
+                  }}>
+                {team.prob_winDivision}%
+              </td>
+              <td className="p-2 text-sm text-right border dark:border-gray-600 dark:hover:bg-gray-700"
+                  style={{ 
+                    backgroundColor: getProbColor(team.prob_winSuperbowl),
+                    color: isDarkMode ? 'white' : (team.prob_winSuperbowl > 75 ? 'white' : 'black')
+                  }}>
+                {team.prob_winSuperbowl}%
+              </td>
             </tr>
           ))}
         </tbody>
