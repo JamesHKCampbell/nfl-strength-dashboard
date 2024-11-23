@@ -80,9 +80,9 @@ const NFLStatsTable = () => {
     if (prob === 100) {
         return isDarkMode ? 'rgba(92, 42, 141, 1)' : 'rgba(163, 114, 213, 1)';  // Brighter purple
     }
-    const opacity = (prob+10) / 120;
+    const opacity = (prob+10) / 130;
     if (isDarkMode) return `rgba(92, 42, 141, ${opacity})`;
-    return `rgba(173, 128, 217, ${opacity})`;
+    return `rgba(163, 114, 213, ${opacity})`;
   };
   
   return (
