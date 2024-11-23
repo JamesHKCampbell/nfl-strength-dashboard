@@ -3,7 +3,7 @@
 import NFLStatsTable from './components/NFLStatsTable';
 import UpcomingGames from './components/UpcomingGames';
 import page_metadata from '../public/data/nfl-team-strength-metadata.json';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 // Placeholder components
 // const UpcomingGames = () => (
@@ -35,6 +35,11 @@ export default function Home() {
         return <NFLStatsTable />;
     }
   };
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+  setIsDarkMode(window.matchMedia('(prefers-color-scheme: dark)').matches);
+  }, []);
 
   return (
     <main className="container mx-auto p-4">
@@ -47,8 +52,8 @@ export default function Home() {
           onClick={() => setActiveView('rankings')}
           className={`px-4 py-2 rounded-lg font-sans ${
             activeView === 'rankings'
-              ? 'bg-black text-white'
-              : 'bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600'
+            ? (isDarkMode ? 'bg-white text-black' : 'bg-black text-white')
+            : 'bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600'
           }`}
         >
           Team Rankings
@@ -57,8 +62,8 @@ export default function Home() {
           onClick={() => setActiveView('games')}
           className={`px-4 py-2 rounded-lg font-sans ${
             activeView === 'games'
-              ? 'bg-black text-white'
-              : 'bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600'
+            ? (isDarkMode ? 'bg-white text-black' : 'bg-black text-white')
+            : 'bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600'
           }`}
         >
           Upcoming Games
@@ -67,7 +72,7 @@ export default function Home() {
           onClick={() => setActiveView('trends')}
           className={`px-4 py-2 rounded-lg font-sans ${
             activeView === 'trends'
-              ? 'bg-black text-white'
+              ? (isDarkMode ? 'bg-white text-black' : 'bg-black text-white')
               : 'bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600'
           }`}
         >
