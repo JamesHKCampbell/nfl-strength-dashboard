@@ -9,6 +9,7 @@ interface TeamStats {
   strengthChange: number;
   record: string;
   winPercentage: number;
+  strengthRemainingSchedule: number;
   prob_makePlayoffs: number;
   prob_winDivision: number;
   prob_winSuperbowl: number;
@@ -121,6 +122,11 @@ const NFLStatsTable = () => {
                 Win % <ArrowUpDown className="ml-2 h-4 w-4" />
               </div>
             </th>
+            <th className="p-2 text-right cursor-pointer border-r-2 border-r-black dark:border-r-white" onClick={() => sortData('strengthRemainingSchedule')}>
+              <div className="flex items-center justify-end">
+                Avg. Strength <br />of Remaining Opponents<ArrowUpDown className="ml-2 h-4 w-4" />
+              </div>
+            </th>
             <th className="p-2 text-right cursor-pointer" onClick={() => sortData('prob_makePlayoffs')}>
               <div className="flex items-center justify-end">
                 Probability to:<br /> Make Playoffs <ArrowUpDown className="ml-2 h-4 w-4" />
@@ -155,6 +161,12 @@ const NFLStatsTable = () => {
               </td>
               <td className="p-2 text-sm text-right border dark:border-gray-600 dark:hover:bg-gray-700">{team.record}</td>
               <td className="p-2 text-sm text-right border border-r-2 border-r-black dark:border-r-white dark:border-gray-600 dark:hover:bg-gray-700">{team.winPercentage}%</td>
+              <td className={"p-2 text-sm text-right border border-r-2 border-r-black dark:border-r-white dark:border-gray-600 dark:hover:bg-gray-700"}
+                  style={{ 
+                    backgroundColor: getStrengthColor(team.strengthRemainingSchedule),
+                    color: isDarkMode ? 'white' : (team.strengthRemainingSchedule > 75 ? 'white' : 'black')
+                  }}>
+                {team.strengthRemainingSchedule.toFixed(1)}</td>
               <td className="p-2 text-sm text-right border dark:border-gray-600 dark:hover:bg-gray-700"
                   style={{ 
                     backgroundColor: getProbColor(team.prob_makePlayoffs),
