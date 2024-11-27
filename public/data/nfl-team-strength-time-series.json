@@ -609,13 +609,13 @@
     "_cutoffDate": "2024-10-15",
     "Team": "Chicago Bears",
     "Strength": 36.0,
-    "Win %": 0.36363636363636365
+    "Win %": 0.3636363636363636
   },
   {
     "_cutoffDate": "2024-10-15",
     "Team": "Cincinnati Bengals",
     "Strength": 41.7,
-    "Win %": 0.36363636363636365
+    "Win %": 0.3636363636363636
   },
   {
     "_cutoffDate": "2024-10-15",
@@ -627,7 +627,7 @@
     "_cutoffDate": "2024-10-15",
     "Team": "Dallas Cowboys",
     "Strength": 48.5,
-    "Win %": 0.36363636363636365
+    "Win %": 0.3636363636363636
   },
   {
     "_cutoffDate": "2024-10-15",
@@ -639,7 +639,7 @@
     "_cutoffDate": "2024-10-15",
     "Team": "Detroit Lions",
     "Strength": 88.1,
-    "Win %": 0.9090909090909091
+    "Win %": 0.9090909090909092
   },
   {
     "_cutoffDate": "2024-10-15",
@@ -663,19 +663,19 @@
     "_cutoffDate": "2024-10-15",
     "Team": "Jacksonville Jaguars",
     "Strength": 31.8,
-    "Win %": 0.18181818181818182
+    "Win %": 0.1818181818181818
   },
   {
     "_cutoffDate": "2024-10-15",
     "Team": "Kansas City Chiefs",
     "Strength": 87.8,
-    "Win %": 0.9090909090909091
+    "Win %": 0.9090909090909092
   },
   {
     "_cutoffDate": "2024-10-15",
     "Team": "Las Vegas Raiders",
     "Strength": 30.0,
-    "Win %": 0.18181818181818182
+    "Win %": 0.1818181818181818
   },
   {
     "_cutoffDate": "2024-10-15",
@@ -687,13 +687,13 @@
     "_cutoffDate": "2024-10-15",
     "Team": "Los Angeles Rams",
     "Strength": 53.2,
-    "Win %": 0.45454545454545453
+    "Win %": 0.4545454545454545
   },
   {
     "_cutoffDate": "2024-10-15",
     "Team": "Miami Dolphins",
     "Strength": 46.0,
-    "Win %": 0.45454545454545453
+    "Win %": 0.4545454545454545
   },
   {
     "_cutoffDate": "2024-10-15",
@@ -711,13 +711,13 @@
     "_cutoffDate": "2024-10-15",
     "Team": "New Orleans Saints",
     "Strength": 40.2,
-    "Win %": 0.36363636363636365
+    "Win %": 0.3636363636363636
   },
   {
     "_cutoffDate": "2024-10-15",
     "Team": "New York Giants",
     "Strength": 22.9,
-    "Win %": 0.18181818181818182
+    "Win %": 0.1818181818181818
   },
   {
     "_cutoffDate": "2024-10-15",
@@ -741,7 +741,7 @@
     "_cutoffDate": "2024-10-15",
     "Team": "San Francisco 49ers",
     "Strength": 58.3,
-    "Win %": 0.45454545454545453
+    "Win %": 0.4545454545454545
   },
   {
     "_cutoffDate": "2024-10-15",
@@ -753,7 +753,7 @@
     "_cutoffDate": "2024-10-15",
     "Team": "Tampa Bay Buccaneers",
     "Strength": 53.2,
-    "Win %": 0.45454545454545453
+    "Win %": 0.4545454545454545
   },
   {
     "_cutoffDate": "2024-10-15",
@@ -770,194 +770,194 @@
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Arizona Cardinals",
-    "Strength": 43.0,
-    "Win %": 0.4285714285714285
+    "Strength": 49.8,
+    "Win %": 0.5454545454545454
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Atlanta Falcons",
-    "Strength": 50.8,
-    "Win %": 0.5714285714285714
+    "Strength": 50.2,
+    "Win %": 0.5454545454545454
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Baltimore Ravens",
-    "Strength": 77.0,
-    "Win %": 0.7142857142857143
+    "Strength": 70.0,
+    "Win %": 0.6666666666666666
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Buffalo Bills",
-    "Strength": 63.5,
-    "Win %": 0.7142857142857143
+    "Strength": 76.2,
+    "Win %": 0.8181818181818182
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Carolina Panthers",
-    "Strength": 9.0,
-    "Win %": 0.1428571428571428
+    "Strength": 19.9,
+    "Win %": 0.2727272727272727
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Chicago Bears",
-    "Strength": 52.8,
-    "Win %": 0.6666666666666666
+    "Strength": 36.0,
+    "Win %": 0.36363636363636365
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Cincinnati Bengals",
-    "Strength": 46.5,
-    "Win %": 0.4285714285714285
+    "Strength": 41.8,
+    "Win %": 0.36363636363636365
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Cleveland Browns",
-    "Strength": 34.5,
-    "Win %": 0.1428571428571428
+    "Strength": 37.2,
+    "Win %": 0.2727272727272727
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Dallas Cowboys",
-    "Strength": 58.5,
-    "Win %": 0.5
+    "Strength": 48.7,
+    "Win %": 0.36363636363636365
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Denver Broncos",
-    "Strength": 51.6,
-    "Win %": 0.5714285714285714
+    "Strength": 55.0,
+    "Win %": 0.5833333333333334
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Detroit Lions",
-    "Strength": 81.3,
-    "Win %": 0.8333333333333334
+    "Strength": 88.0,
+    "Win %": 0.9090909090909091
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Green Bay Packers",
-    "Strength": 66.5,
-    "Win %": 0.7142857142857143
+    "Strength": 69.7,
+    "Win %": 0.7272727272727273
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Houston Texans",
-    "Strength": 63.0,
-    "Win %": 0.7142857142857143
+    "Strength": 54.4,
+    "Win %": 0.5833333333333334
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Indianapolis Colts",
-    "Strength": 52.4,
-    "Win %": 0.5714285714285714
+    "Strength": 45.5,
+    "Win %": 0.4166666666666667
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Jacksonville Jaguars",
-    "Strength": 37.1,
-    "Win %": 0.2857142857142857
+    "Strength": 32.0,
+    "Win %": 0.18181818181818182
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Kansas City Chiefs",
-    "Strength": 90.4,
-    "Win %": 1.0
+    "Strength": 87.9,
+    "Win %": 0.9090909090909091
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Las Vegas Raiders",
-    "Strength": 36.3,
-    "Win %": 0.2857142857142857
+    "Strength": 29.8,
+    "Win %": 0.18181818181818182
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Los Angeles Chargers",
-    "Strength": 41.0,
-    "Win %": 0.5
+    "Strength": 52.3,
+    "Win %": 0.6363636363636364
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Los Angeles Rams",
-    "Strength": 50.1,
-    "Win %": 0.3333333333333333
+    "Strength": 53.1,
+    "Win %": 0.45454545454545453
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Miami Dolphins",
-    "Strength": 39.4,
-    "Win %": 0.3333333333333333
+    "Strength": 45.9,
+    "Win %": 0.45454545454545453
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Minnesota Vikings",
-    "Strength": 69.2,
-    "Win %": 0.8333333333333334
+    "Strength": 69.0,
+    "Win %": 0.8181818181818182
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "New England Patriots",
-    "Strength": 15.0,
-    "Win %": 0.1428571428571428
+    "Strength": 20.6,
+    "Win %": 0.25
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "New Orleans Saints",
-    "Strength": 40.4,
-    "Win %": 0.2857142857142857
+    "Strength": 40.0,
+    "Win %": 0.36363636363636365
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "New York Giants",
-    "Strength": 34.6,
-    "Win %": 0.2857142857142857
+    "Strength": 23.0,
+    "Win %": 0.18181818181818182
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "New York Jets",
-    "Strength": 32.2,
-    "Win %": 0.2857142857142857
+    "Strength": 30.6,
+    "Win %": 0.2727272727272727
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Philadelphia Eagles",
-    "Strength": 60.5,
-    "Win %": 0.6666666666666666
+    "Strength": 70.0,
+    "Win %": 0.8181818181818182
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Pittsburgh Steelers",
-    "Strength": 60.2,
-    "Win %": 0.7142857142857143
+    "Strength": 61.2,
+    "Win %": 0.7272727272727273
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "San Francisco 49ers",
-    "Strength": 58.1,
-    "Win %": 0.4285714285714285
+    "Strength": 58.3,
+    "Win %": 0.45454545454545453
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Seattle Seahawks",
-    "Strength": 52.8,
-    "Win %": 0.5714285714285714
+    "Strength": 55.8,
+    "Win %": 0.5454545454545454
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Tampa Bay Buccaneers",
-    "Strength": 59.8,
-    "Win %": 0.5714285714285714
+    "Strength": 53.4,
+    "Win %": 0.45454545454545453
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Tennessee Titans",
-    "Strength": 26.2,
-    "Win %": 0.1666666666666666
+    "Strength": 31.9,
+    "Win %": 0.2727272727272727
   },
   {
     "_cutoffDate": "2024-10-22",
     "Team": "Washington Commanders",
-    "Strength": 46.4,
-    "Win %": 0.7142857142857143
+    "Strength": 42.9,
+    "Win %": 0.5833333333333334
   },
   {
     "_cutoffDate": "2024-10-29",
@@ -2145,13 +2145,13 @@
     "_cutoffDate": "2024-11-25",
     "Team": "Chicago Bears",
     "Strength": 35.9,
-    "Win %": 0.36363636363636365
+    "Win %": 0.3636363636363636
   },
   {
     "_cutoffDate": "2024-11-25",
     "Team": "Cincinnati Bengals",
     "Strength": 41.8,
-    "Win %": 0.36363636363636365
+    "Win %": 0.3636363636363636
   },
   {
     "_cutoffDate": "2024-11-25",
@@ -2163,7 +2163,7 @@
     "_cutoffDate": "2024-11-25",
     "Team": "Dallas Cowboys",
     "Strength": 48.6,
-    "Win %": 0.36363636363636365
+    "Win %": 0.3636363636363636
   },
   {
     "_cutoffDate": "2024-11-25",
@@ -2175,7 +2175,7 @@
     "_cutoffDate": "2024-11-25",
     "Team": "Detroit Lions",
     "Strength": 87.9,
-    "Win %": 0.9090909090909091
+    "Win %": 0.9090909090909092
   },
   {
     "_cutoffDate": "2024-11-25",
@@ -2199,19 +2199,19 @@
     "_cutoffDate": "2024-11-25",
     "Team": "Jacksonville Jaguars",
     "Strength": 31.8,
-    "Win %": 0.18181818181818182
+    "Win %": 0.1818181818181818
   },
   {
     "_cutoffDate": "2024-11-25",
     "Team": "Kansas City Chiefs",
     "Strength": 87.9,
-    "Win %": 0.9090909090909091
+    "Win %": 0.9090909090909092
   },
   {
     "_cutoffDate": "2024-11-25",
     "Team": "Las Vegas Raiders",
     "Strength": 30.1,
-    "Win %": 0.18181818181818182
+    "Win %": 0.1818181818181818
   },
   {
     "_cutoffDate": "2024-11-25",
@@ -2223,13 +2223,13 @@
     "_cutoffDate": "2024-11-25",
     "Team": "Los Angeles Rams",
     "Strength": 53.1,
-    "Win %": 0.45454545454545453
+    "Win %": 0.4545454545454545
   },
   {
     "_cutoffDate": "2024-11-25",
     "Team": "Miami Dolphins",
     "Strength": 45.9,
-    "Win %": 0.45454545454545453
+    "Win %": 0.4545454545454545
   },
   {
     "_cutoffDate": "2024-11-25",
@@ -2247,13 +2247,13 @@
     "_cutoffDate": "2024-11-25",
     "Team": "New Orleans Saints",
     "Strength": 40.2,
-    "Win %": 0.36363636363636365
+    "Win %": 0.3636363636363636
   },
   {
     "_cutoffDate": "2024-11-25",
     "Team": "New York Giants",
     "Strength": 22.9,
-    "Win %": 0.18181818181818182
+    "Win %": 0.1818181818181818
   },
   {
     "_cutoffDate": "2024-11-25",
@@ -2277,7 +2277,7 @@
     "_cutoffDate": "2024-11-25",
     "Team": "San Francisco 49ers",
     "Strength": 58.2,
-    "Win %": 0.45454545454545453
+    "Win %": 0.4545454545454545
   },
   {
     "_cutoffDate": "2024-11-25",
@@ -2289,7 +2289,7 @@
     "_cutoffDate": "2024-11-25",
     "Team": "Tampa Bay Buccaneers",
     "Strength": 53.3,
-    "Win %": 0.45454545454545453
+    "Win %": 0.4545454545454545
   },
   {
     "_cutoffDate": "2024-11-25",
@@ -2301,6 +2301,198 @@
     "_cutoffDate": "2024-11-25",
     "Team": "Washington Commanders",
     "Strength": 42.7,
+    "Win %": 0.5833333333333334
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Arizona Cardinals",
+    "Strength": 49.9,
+    "Win %": 0.5454545454545454
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Atlanta Falcons",
+    "Strength": 50.2,
+    "Win %": 0.5454545454545454
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Baltimore Ravens",
+    "Strength": 70.0,
+    "Win %": 0.6666666666666666
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Buffalo Bills",
+    "Strength": 76.2,
+    "Win %": 0.8181818181818182
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Carolina Panthers",
+    "Strength": 19.9,
+    "Win %": 0.2727272727272727
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Chicago Bears",
+    "Strength": 36.0,
+    "Win %": 0.36363636363636365
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Cincinnati Bengals",
+    "Strength": 41.8,
+    "Win %": 0.36363636363636365
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Cleveland Browns",
+    "Strength": 37.2,
+    "Win %": 0.2727272727272727
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Dallas Cowboys",
+    "Strength": 48.7,
+    "Win %": 0.36363636363636365
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Denver Broncos",
+    "Strength": 55.0,
+    "Win %": 0.5833333333333334
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Detroit Lions",
+    "Strength": 88.0,
+    "Win %": 0.9090909090909091
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Green Bay Packers",
+    "Strength": 69.7,
+    "Win %": 0.7272727272727273
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Houston Texans",
+    "Strength": 54.4,
+    "Win %": 0.5833333333333334
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Indianapolis Colts",
+    "Strength": 45.5,
+    "Win %": 0.4166666666666667
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Jacksonville Jaguars",
+    "Strength": 32.0,
+    "Win %": 0.18181818181818182
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Kansas City Chiefs",
+    "Strength": 87.9,
+    "Win %": 0.9090909090909091
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Las Vegas Raiders",
+    "Strength": 29.8,
+    "Win %": 0.18181818181818182
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Los Angeles Chargers",
+    "Strength": 52.3,
+    "Win %": 0.6363636363636364
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Los Angeles Rams",
+    "Strength": 53.1,
+    "Win %": 0.45454545454545453
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Miami Dolphins",
+    "Strength": 45.9,
+    "Win %": 0.45454545454545453
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Minnesota Vikings",
+    "Strength": 69.0,
+    "Win %": 0.8181818181818182
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "New England Patriots",
+    "Strength": 20.6,
+    "Win %": 0.25
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "New Orleans Saints",
+    "Strength": 40.0,
+    "Win %": 0.36363636363636365
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "New York Giants",
+    "Strength": 23.0,
+    "Win %": 0.18181818181818182
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "New York Jets",
+    "Strength": 30.6,
+    "Win %": 0.2727272727272727
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Philadelphia Eagles",
+    "Strength": 70.0,
+    "Win %": 0.8181818181818182
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Pittsburgh Steelers",
+    "Strength": 61.2,
+    "Win %": 0.7272727272727273
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "San Francisco 49ers",
+    "Strength": 58.3,
+    "Win %": 0.45454545454545453
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Seattle Seahawks",
+    "Strength": 55.9,
+    "Win %": 0.5454545454545454
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Tampa Bay Buccaneers",
+    "Strength": 53.4,
+    "Win %": 0.45454545454545453
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Tennessee Titans",
+    "Strength": 31.9,
+    "Win %": 0.2727272727272727
+  },
+  {
+    "_cutoffDate": "2024-11-26",
+    "Team": "Washington Commanders",
+    "Strength": 42.9,
     "Win %": 0.5833333333333334
   }
 ]
