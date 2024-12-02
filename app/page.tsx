@@ -2,7 +2,7 @@
 
 import NFLStatsTable from './components/NFLStatsTable';
 import UpcomingGames from './components/UpcomingGames';
-// import TeamTrends from './components/TeamTrends';
+import TeamTrends from './components/TeamTrends';
 import page_metadata from '../public/data/nfl-team-strength-metadata.json';
 import { useState, useEffect } from 'react';
 
@@ -14,10 +14,10 @@ import { useState, useEffect } from 'react';
 //   </div>
 // );
 
-const TeamTrends = () => (
+const AppendixModelArchitecture = () => (
   <div className="w-full p-4">
-    <h3 className="text-xl font-bold">Team Trends</h3>
-    <p>Coming soon: Team performance trends over time</p>
+    <h3 className="text-xl font-bold">Model Architecture</h3>
+    <p>Coming soon: Deep dive explanation of how this model works</p>
   </div>
 );
 
@@ -32,6 +32,8 @@ export default function Home() {
         return <UpcomingGames />;
       case 'trends':
         return <TeamTrends />;
+      case 'modelarchitecture':
+        return <AppendixModelArchitecture />;
       default:
         return <NFLStatsTable />;
     }
@@ -78,6 +80,16 @@ export default function Home() {
           }`}
         >
           Team Trends
+        </button>
+        <button
+          onClick={() => setActiveView('modelarchitecture')}
+          className={`px-4 py-2 rounded-lg font-sans ${
+            activeView === 'modelarchitecture'
+              ? (isDarkMode ? 'bg-white text-black' : 'bg-black text-white')
+              : 'bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600'
+          }`}
+        >
+          Appendix: Model Architecture
         </button>
       </div>
 
