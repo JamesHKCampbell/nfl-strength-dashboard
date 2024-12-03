@@ -157,7 +157,7 @@ const TeamTrends = () => {
       <div className="w-full h-[600px]">
         <ResponsiveContainer>
           <LineChart data={data} margin={{ top: 20, right: 30, left: 20, bottom: 20 }}>
-            <CartesianGrid strokeDasharray="3 3" />
+            <CartesianGrid strokeDasharray="3 3" fill="#fff" fillOpacity={isDarkMode ? "0.55" : "1"}/>
             <XAxis 
               dataKey="_cutoffDate" 
               tickFormatter={formatDate}
@@ -188,7 +188,7 @@ const TeamTrends = () => {
             />
             <Tooltip 
               contentStyle={{
-                backgroundColor: isDarkMode ? "#374151" : "#fff",
+                backgroundColor: "#fff",
                 border: "1px solid #ccc",
                 borderRadius: "4px",
                 color: isDarkMode ? "#fff" : "#000",

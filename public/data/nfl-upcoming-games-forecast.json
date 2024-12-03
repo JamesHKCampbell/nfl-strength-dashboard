@@ -1,17 +1,77 @@
 {
   "Date": {
-    "0": "2024-12-02T00:00:00-05:00"
+    "0": "2024-12-05T00:00:00-05:00",
+    "1": "2024-12-08T00:00:00-05:00",
+    "2": "2024-12-08T00:00:00-05:00",
+    "3": "2024-12-08T00:00:00-05:00",
+    "4": "2024-12-08T00:00:00-05:00",
+    "5": "2024-12-08T00:00:00-05:00",
+    "6": "2024-12-08T00:00:00-05:00",
+    "7": "2024-12-08T00:00:00-05:00",
+    "8": "2024-12-08T00:00:00-05:00",
+    "9": "2024-12-08T00:00:00-05:00",
+    "10": "2024-12-08T00:00:00-05:00",
+    "11": "2024-12-08T00:00:00-05:00",
+    "12": "2024-12-09T00:00:00-05:00"
   },
   "Home": {
-    "0": "Denver Broncos"
+    "0": "Detroit Lions",
+    "1": "Kansas City Chiefs",
+    "2": "Los Angeles Rams",
+    "3": "San Francisco 49ers",
+    "4": "Arizona Cardinals",
+    "5": "Tampa Bay Buccaneers",
+    "6": "Pittsburgh Steelers",
+    "7": "Philadelphia Eagles",
+    "8": "New York Giants",
+    "9": "Minnesota Vikings",
+    "10": "Tennessee Titans",
+    "11": "Miami Dolphins",
+    "12": "Dallas Cowboys"
   },
   "Visitor": {
-    "0": "Cleveland Browns"
+    "0": "Green Bay Packers",
+    "1": "Los Angeles Chargers",
+    "2": "Buffalo Bills",
+    "3": "Chicago Bears",
+    "4": "Seattle Seahawks",
+    "5": "Las Vegas Raiders",
+    "6": "Cleveland Browns",
+    "7": "Carolina Panthers",
+    "8": "New Orleans Saints",
+    "9": "Atlanta Falcons",
+    "10": "Jacksonville Jaguars",
+    "11": "New York Jets",
+    "12": "Cincinnati Bengals"
   },
   "Home_Win_Likelihood": {
-    "0": 71
+    "0": 71,
+    "1": 85,
+    "2": 24,
+    "3": 75,
+    "4": 40,
+    "5": 78,
+    "6": 80,
+    "7": 94,
+    "8": 31,
+    "9": 77,
+    "10": 49,
+    "11": 69,
+    "12": 63
   },
   "Visitor_Win_Likelihood": {
-    "0": 28
+    "0": 28,
+    "1": 15,
+    "2": 76,
+    "3": 25,
+    "4": 60,
+    "5": 22,
+    "6": 20,
+    "7": 6,
+    "8": 69,
+    "9": 23,
+    "10": 51,
+    "11": 31,
+    "12": 37
   }
 }
