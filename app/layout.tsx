@@ -3,8 +3,8 @@ import Script from 'next/script';
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "NFL Team Strength Network Model",
-  description: "A robust measure of NFL team strength, accounting for strength of opponents",
+  title: "NFL Team Strength Network Model (2024-2025)",
+  description: "A robust measure of NFL team strength, accounting for strength of opponents in a network model. Built by James H. K. Campbell",
 };
 
 export default function RootLayout({
