@@ -2582,7 +2582,7 @@
   {
     "_cutoffDate": "2024-12-22T00:00:00-05:00",
     "Team": "Jacksonville Jaguars",
-    "Strength": 28.3,
+    "Strength": 28.2,
     "Win %": 0.21428571428571427
   },
   {
@@ -2636,7 +2636,7 @@
   {
     "_cutoffDate": "2024-12-22T00:00:00-05:00",
     "Team": "New York Giants",
-    "Strength": 18.3,
+    "Strength": 18.4,
     "Win %": 0.14285714285714285
   },
   {
@@ -2666,7 +2666,7 @@
   {
     "_cutoffDate": "2024-12-22T00:00:00-05:00",
     "Team": "Seattle Seahawks",
-    "Strength": 58.0,
+    "Strength": 57.9,
     "Win %": 0.5714285714285714
   },
   {
