@@ -1,77 +1,22 @@
 {
   "Date": {
     "0": "2024-12-22T00:00:00-05:00",
-    "1": "2024-12-22T00:00:00-05:00",
-    "2": "2024-12-22T00:00:00-05:00",
-    "3": "2024-12-22T00:00:00-05:00",
-    "4": "2024-12-22T00:00:00-05:00",
-    "5": "2024-12-22T00:00:00-05:00",
-    "6": "2024-12-22T00:00:00-05:00",
-    "7": "2024-12-22T00:00:00-05:00",
-    "8": "2024-12-22T00:00:00-05:00",
-    "9": "2024-12-22T00:00:00-05:00",
-    "10": "2024-12-22T00:00:00-05:00",
-    "11": "2024-12-22T00:00:00-05:00",
-    "12": "2024-12-23T00:00:00-05:00"
+    "1": "2024-12-23T00:00:00-05:00"
   },
   "Home": {
     "0": "Dallas Cowboys",
-    "1": "Miami Dolphins",
-    "2": "Las Vegas Raiders",
-    "3": "Buffalo Bills",
-    "4": "Seattle Seahawks",
-    "5": "Washington Commanders",
-    "6": "New York Jets",
-    "7": "Indianapolis Colts",
-    "8": "Chicago Bears",
-    "9": "Cincinnati Bengals",
-    "10": "Carolina Panthers",
-    "11": "Atlanta Falcons",
-    "12": "Green Bay Packers"
+    "1": "Green Bay Packers"
   },
   "Visitor": {
     "0": "Tampa Bay Buccaneers",
-    "1": "San Francisco 49ers",
-    "2": "Jacksonville Jaguars",
-    "3": "New England Patriots",
-    "4": "Minnesota Vikings",
-    "5": "Philadelphia Eagles",
-    "6": "Los Angeles Rams",
-    "7": "Tennessee Titans",
-    "8": "Detroit Lions",
-    "9": "Cleveland Browns",
-    "10": "Arizona Cardinals",
-    "11": "New York Giants",
-    "12": "New Orleans Saints"
+    "1": "New Orleans Saints"
   },
   "Home_Win_Likelihood": {
     "0": 37,
-    "1": 33,
-    "2": 47,
-    "3": 96,
-    "4": 31,
-    "5": 17,
-    "6": 15,
-    "7": 73,
-    "8": 6,
-    "9": 64,
-    "10": 16,
-    "11": 82,
-    "12": 85
+    "1": 84
   },
   "Visitor_Win_Likelihood": {
     "0": 63,
-    "1": 67,
-    "2": 53,
-    "3": 4,
-    "4": 69,
-    "5": 83,
-    "6": 85,
-    "7": 27,
-    "8": 94,
-    "9": 36,
-    "10": 84,
-    "11": 18,
-    "12": 15
+    "1": 16
   }
 }
