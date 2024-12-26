@@ -47,7 +47,7 @@ const UpcomingGames = () => {
   const getExcitementColor = (score: number) => {
     const opacity = score / 100;
     // Using similar colors to your existing table
-    if (isDarkMode) return `rgba(220, 139, 24, ${opacity})`;
+    if (isDarkMode) return `rgba(135, 204, 62, ${opacity})`;
     return `rgba(171, 219, 118, ${opacity})`;  
     };
 
