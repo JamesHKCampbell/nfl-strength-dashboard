@@ -109,7 +109,7 @@ const UpcomingGames = () => {
         </tbody>
       </table>
       <p className="mt-2 text-xs italic font-semibold">- Win Probabilities are calculated with a sigmoid function based on the balance of the two team's strength scores.</p>
-      <p className="text-xs italic font-semibold">- "Game Excitement Score" is calculated as the geometric mean of both team's strength, prioritizing games with two strong teams and more uncertainty about the outcome.</p>
+      <p className="text-xs italic font-semibold">- "Game Excitement Score" is calculated as the geometric mean of both teams' strength scores multiplied by the square root of the difference between the home team's win likelihood and 50%, prioritizing games with two strong teams and more uncertainty about the outcome.</p>
     </div>
   );
 };

@@ -1,98 +1,26 @@
 {
   "Date": {
-    "0": "2024-12-28T00:00:00-05:00",
-    "1": "2024-12-28T00:00:00-05:00",
-    "2": "2024-12-28T00:00:00-05:00",
-    "3": "2024-12-28T00:00:00-05:00",
-    "4": "2024-12-29T00:00:00-05:00",
-    "5": "2024-12-29T00:00:00-05:00",
-    "6": "2024-12-29T00:00:00-05:00",
-    "7": "2024-12-29T00:00:00-05:00",
-    "8": "2024-12-29T00:00:00-05:00",
-    "9": "2024-12-29T00:00:00-05:00",
-    "10": "2024-12-29T00:00:00-05:00",
-    "11": "2024-12-29T00:00:00-05:00",
-    "12": "2024-12-29T00:00:00-05:00",
-    "13": "2024-12-30T00:00:00-05:00"
+    "0": "2024-12-29T00:00:00-05:00",
+    "1": "2024-12-30T00:00:00-05:00"
   },
   "Home": {
-    "0": "New York Giants",
-    "1": "New England Patriots",
-    "2": "Cincinnati Bengals",
-    "3": "Los Angeles Rams",
-    "4": "Washington Commanders",
-    "5": "Minnesota Vikings",
-    "6": "Philadelphia Eagles",
-    "7": "Tampa Bay Buccaneers",
-    "8": "Cleveland Browns",
-    "9": "Jacksonville Jaguars",
-    "10": "New Orleans Saints",
-    "11": "New York Giants",
-    "12": "Buffalo Bills",
-    "13": "San Francisco 49ers"
+    "0": "Washington Commanders",
+    "1": "San Francisco 49ers"
   },
   "Visitor": {
-    "0": "Indianapolis Colts",
-    "1": "Los Angeles Chargers",
-    "2": "Denver Broncos",
-    "3": "Arizona Cardinals",
-    "4": "Atlanta Falcons",
-    "5": "Green Bay Packers",
-    "6": "Dallas Cowboys",
-    "7": "Carolina Panthers",
-    "8": "Miami Dolphins",
-    "9": "Tennessee Titans",
-    "10": "Las Vegas Raiders",
-    "11": "Indianapolis Colts",
-    "12": "New York Jets",
-    "13": "Detroit Lions"
+    "0": "Atlanta Falcons",
+    "1": "Detroit Lions"
   },
   "Home_Win_Likelihood": {
-    "0": 21,
-    "1": 12,
-    "2": 40,
-    "3": 72,
-    "4": 52,
-    "5": 53,
-    "6": 75,
-    "7": 84,
-    "8": 32,
-    "9": 54,
-    "10": 59,
-    "11": 21,
-    "12": 93,
-    "13": 15
+    "0": 52,
+    "1": 16
   },
   "Visitor_Win_Likelihood": {
-    "0": 79,
-    "1": 88,
-    "2": 60,
-    "3": 28,
-    "4": 48,
-    "5": 47,
-    "6": 25,
-    "7": 16,
-    "8": 68,
-    "9": 46,
-    "10": 41,
-    "11": 79,
-    "12": 7,
-    "13": 85
+    "0": 48,
+    "1": 84
   },
   "Game_Excitement_Score": {
-    "0": 18.7,
-    "1": 14.2,
-    "2": 46.0,
-    "3": 38.9,
-    "4": 49.2,
-    "5": 71.7,
-    "6": 43.4,
-    "7": 19.8,
-    "8": 30.7,
-    "9": 21.7,
-    "10": 30.4,
-    "11": 18.7,
-    "12": 17.2,
-    "13": 38.2
+    "0": 49.0,
+    "1": 38.6
   }
 }
